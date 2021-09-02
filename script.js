@@ -36,7 +36,7 @@ document.addEventListener("keydown",e=>{
 
 // 2.4 If someone clicks on one of the navigation items the styling of the connecting paragraph should change to be more bold and be a larger font size. If they click again on the same navigation item, the paragraph should revert to original styling.
 let navLinks = document.getElementsByClassName("nav-item");
-   navLinks[0].addEventListener("click",()=>{
+navLinks[0].addEventListener("click",()=>{
         let home = document.getElementById("home").classList.toggle("pDecorate");
 })
 navLinks[1].addEventListener("click",()=>{
